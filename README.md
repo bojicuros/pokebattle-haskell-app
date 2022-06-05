@@ -36,7 +36,7 @@ U drugoj tabeli nalaze se informacije o slatkišima i primarni ključ je *id*, p
 
 | id      | name      | quantity | img      |
 | ------- | --------- | -------  | --------- |
-| 1       | Bulbasaur Candy |13    |(https://static.wikia.nocookie.net/pokemongo/images/8/87/Bulbasaur_candy.png|
+| 1       | Bulbasaur Candy |13    |https://static.wikia.nocookie.net/pokemongo/images/8/87/Bulbasaur_candy.png|
 | 7       | Squirtle Candy  |68    |https://static.wikia.nocookie.net/pokemongo/images/8/85/Squirtle_candy.png|
 
 
