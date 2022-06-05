@@ -2,7 +2,7 @@
 
 Ovo je opis **web-aplikacije** za projekat iz predmeta **Funkcionalno programiranje**. Zadatak nam je bio realizovati web-aplikaciju u programskom jeziku Haskel, tako što ćemo se uz pomoć Haskela povezati na bazu podataka i prikazati podatke iz iste. Podatke trebamo prikazati tako što ćemo generisati odgovarajući HTML kod, pored prikazivanja aplikacija treba da bude interaktivna. Potrebno je da omogućimo dodavanje podataka u bazu, te brisanje podataka iz baze. Takođe je potrebno uspostaviti komunikaciju između web aplikacije i servera na kom se ona izvršava.
 
-Projekat je realizovan koristeći **SQLite** bazu podataka, a za konekciju sa bazom se koristi **sqlite-simple** bibliotaka. Generisanje HTML koda vrši se uz pomoć **blaze-html** biblioteke. Server je realizovan korisreći **scotty**, koji je zasnovan na *wai* interfejsu za web aplikacije i *warp* serveru za WAI aplikacije. 
+Projekat je realizovan koristeći **SQLite** bazu podataka, a za konekciju sa bazom se koristi **sqlite-simple** bibliotaka. Generisanje HTML koda vrši se uz pomoć **blaze-html** biblioteke. Server je realizovan koristeći **scotty**, koji je zasnovan na *wai* interfejsu za web aplikacije i *warp* serveru za WAI aplikacije. 
 
 
 
@@ -12,9 +12,9 @@ Naziv web aplikacije je **Pokemon info** i ova aplikacija nam pruža mogućnost 
 3. Prikaz slatkiša koji pokemoni jednu i osnove informacije o njima
 4. Prikaz pokemona i informacija o evoluciji svakog od pokemona
 
-Izborom prve opcije prikazuje nam se slike svakog od pokemona, kao i osnove informacije (naziv,visina,težina,tip,slabosti). Na ovom ekranu imamo opciju izbora određenog tipa, te nam se tada prikazuju samo pokemoni čiji je tip ili jedan od tipova onaj koji je prethodno izabran.
+Izborom prve opcije prikazuje nam se slike svakog od pokemona, kao i osnove informacije (naziv, visina, težina, tip, slabosti). Na ovom ekranu imamo opciju izbora određenog tipa pokemona (npr. normalni, vatreni, vodeni), te nam se tada prikazuju samo pokemoni čiji je tip ili čiji je jedan od tipova onaj koji je prethodno izabran.
 
-Izborom druge opcije prikazuju nam se slike pokemona, osnovne informacije i redni broj pokemona. Nudi nam se opcija da unesemo dva redna broja, te se vrši simulacija borbe i prikazuje pobjednik. Prilikom prikaza pobjednika nudi nam se i opcija pomoću koje ćemo moći pogledati detaljnije informacije o prethodno izvršenoj borbi, ali i o svim borbama koje su ranije izvršene.
+Izborom druge opcije prikazuju nam se slike pokemona, osnovne informacije i redni broj pokemona. Nudi nam se opcija da unesemo dva broja, koja predstavljaju dva pokemona, te se vrši simulacija borbe i prikazuje pobjednik. Prilikom prikaza pobjednika nudi nam se i opcija pomoću koje ćemo moći pogledati detaljnije informacije o prethodno izvršenoj borbi, ali i o svim borbama koje su ranije izvršene. Prilikom pregleda svih borbi, možemo izbrisati određene borbe.
 
 Izborom treće opcije prikazuje nam se redni broj i slika svakog od slatkiša, pored čega se nalazi i naziv i dostupna količina slatkiša. Nudi nam se opcija za unos rednog broja slatkiša, te ukoliko to učinimo prikazuje nam se slika pokemona koji konzumira taj slatkiš.
 
