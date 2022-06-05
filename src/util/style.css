@@ -1,0 +1,319 @@
+.cursor{
+    cursor: url("/cursors/1") 4 12, auto;
+  }
+  .pozadina1{
+    background-image: url("/backgrounds/1");
+    background-size: 970px;
+    height: 590px;
+  }
+  .pozadina2{
+    background-image: url("/backgrounds/2");
+    background-size: 970px;
+    height: 590px;
+  }
+  .pozadina3{
+    background-image: url("/backgrounds/3");
+    background-size: 970px;
+    height: 590px;
+  }
+  .pozadina4{
+    background-image: url("/backgrounds/4");
+    background-size: 970px;
+    height: 590px;
+  }
+  .pozadina5{
+    background-image: url("/backgrounds/5");
+    background-size: 970px;
+    height: 590px;
+  }
+  .pozadina6{
+    background-image: url("/backgrounds/6");
+    background-size: 970px;
+    height: 590px;
+  }
+  .button {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    cursor: url("/cursors/2") 4 12, auto;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    text-decoration: none;
+  }
+
+  .button:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+
+  .button:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(232, 228, 225, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+  }
+
+  .button:focus {
+    outline: 1px transparent;
+  }
+
+  .button:before {
+    display: none;
+}
+
+  .button:-webkit-details-marker {
+    display: none;
+  }
+
+  .button1{
+    margin: 55px 60px;
+    color: #ff9442;
+  }
+
+  .button2{
+    margin: 55px 50px;
+    color: #f6e653;
+  }
+
+  .button3{
+    margin: 55px 95px;
+    color: #78cea0;
+  }
+
+  .button4{
+    margin: 55px 45px;
+    color: #75b5d3;
+  }
+
+  .forma{
+    float:left;
+    clear: right;
+  }
+
+  .menu{
+    appearance: none;
+    background-color: rgba(255, 255, 255, 0.445);
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    cursor: url("/cursors/1") 4 12, auto;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 6px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    text-decoration: none;
+    margin: 10px 10px;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+  }
+
+  .text{
+    cursor: url("/cursors/2") 4 12, auto;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    margin: 2px 8px;
+  }
+
+    select {
+      width: 200px;
+      padding: 6px 6px;
+      margin: 8px 6px;
+      display: inline-block;
+      border-radius: 4px;
+      box-sizing: border-box;
+      cursor: url("/cursors/2") 4 12, auto;
+      font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      font-size: 14px;
+    }
+
+    .pokelist {
+      width: 490px;
+      height: 490px;
+      overflow: auto;
+      margin: 6px 5px;
+      padding: 0px 8px;
+    }
+
+    .pokeshow{
+      border-radius: 6px;
+      background-color: rgba(255, 255, 255, 0.445);
+      height: 120px;
+      padding: 0px 8px;
+    }
+
+    .pokeimg{
+      padding: auto;
+      float: left;
+      width: 120;
+      height: 120;
+    }
+    
+    .background1{
+      background-color:#ff9442;
+    }
+
+    .background2{
+      background-color:#f6e653;
+    }
+
+    .background3{
+      background-color:rgb(145, 201, 190);
+    }
+
+    .background4{
+      background-color:rgb(140, 197, 206);
+    }
+
+    .unosBroja{
+      width: 22px;
+      text-align: end;
+    }
+
+    .redniBroj{
+      float: left;
+      padding-top: 45px;
+      font-size: 20px;
+    }
+
+    .naslov{
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 40px;
+    }
+
+    .centered-div {
+      width: 40%;
+      height: 220px;
+      margin: 170px 280px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(248, 255, 180, 0.813);
+      border-radius: 6px;
+    }
+
+    .menuOnDiv{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .results{
+      position: fixed;
+    }
+
+    .otherimg{
+      top: 20;
+      float: left;
+      height: 120px;
+    }
+
+    .battlelist {
+      width: 440px;
+      height: 490px;
+      overflow: auto;
+      margin: 6px 5px;
+      padding: 0px 8px;
+    }
+
+    .battleshow{
+      border-radius: 6px;
+      background-color: rgba(255, 255, 255, 0.445);
+      height: 120px;
+      padding: 0px 8px;
+      margin-top: 6px;
+    }
+
+    .pokewinner{
+      padding: auto;
+      float: left;
+      border-style: groove;
+      border-width: 1px;
+      width: 120;
+      height: 120;
+    }
+
+    .candylist {
+      width: 420px;
+      height: 490px;
+      overflow: auto;
+      margin: 6px 5px;
+      padding: 0px 8px;
+    }
+
+    .candyshow{
+      border-radius: 6px;
+      background-color: rgba(255, 255, 255, 0.445);
+      height: 100px;
+      margin: 8px 0px;
+    }
+
+    .redniBroj2{
+      float: left;
+      padding-top: 40px;
+      font-size: 18px;
+    }
+
+    .candyimg{
+      width: 100;
+      height: 100;
+      padding: auto;
+      float: left;
+    }
+
+    .centered-div2 {
+      width: 40%;
+      height: 220px;
+      margin: 170px 280px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(197, 238, 249, 0.783);
+      border-radius: 6px;
+    }
+
+    .centered-div3 {
+      width: 45%;
+      height: 200px;
+      margin: 170px 280px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(193, 235, 228, 0.806);
+      border-radius: 6px;
+    }
+
+    .candyImg{
+      height: 100px;
+      padding: auto;
+      float: left;
+    }
