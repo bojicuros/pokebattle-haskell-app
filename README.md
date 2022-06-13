@@ -1,4 +1,4 @@
-# Projektni zaadatak iz predmeta funkcionalno programiranje
+# Projektni zadatak iz predmeta funkcionalno programiranje
 
 Ovo je opis **web-aplikacije** za projekat iz predmeta **Funkcionalno programiranje**. Zadatak nam je bio realizovati web-aplikaciju u programskom jeziku Haskel, tako što ćemo se uz pomoć Haskela povezati na bazu podataka i prikazati podatke iz iste. Podatke trebamo prikazati tako što ćemo generisati odgovarajući HTML kod, pored prikazivanja aplikacija treba da bude interaktivna. Potrebno je da omogućimo dodavanje podataka u bazu, te brisanje podataka iz baze. Takođe je potrebno uspostaviti komunikaciju između web aplikacije i servera na kom se ona izvršava.
 
@@ -18,7 +18,7 @@ Izborom druge opcije prikazuju nam se slike pokemona, osnovne informacije i redn
 
 Izborom treće opcije prikazuje nam se redni broj i slika svakog od slatkiša, pored čega se nalazi i naziv i dostupna količina slatkiša. Nudi nam se opcija za unos rednog broja slatkiša, te ukoliko to učinimo prikazuje nam se slika pokemona koji konzumira taj slatkiš.
 
-Izborom druge opcije prikazuju nam se slike pokemona, osnovne informacije i redni broj pokemona. Ukoliko unesemo redni broj pokemona vraća nam se informacija o evoluciji pokemona. Ukoliko pokemon može da evoluira vraća nam se u kog pokemona on evoluira, a ukoliko ne može tada nam se vraća informacija da pokemon nema dalje evolucije.
+Izborom druge opcije prikazuju nam se slike pokemona, osnovne informacije i redni broj pokemona. Ako unesemo redni broj pokemona vraća nam se informacija o evoluciji pokemona. Ako pokemon može da evoluira vraća nam se u kog pokemona on evoluira, a ukoliko ne može tada nam se vraća informacija da pokemon nema dalje evolucije.
 
 
 ### Baza podataka
